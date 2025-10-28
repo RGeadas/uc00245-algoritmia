@@ -16,6 +16,12 @@ export class Exercicios implements OnInit {
     this.exercicio4();
     this.exercicio5();
     this.exercicio6();
+    this.exercicio7();
+    this.exercicio8();
+    this.exercicio9();
+    this.exercicio10();
+    this.exercicio11();
+    this.exercicio12();
 
   }
      /****************************** Exercicios ******************************/
@@ -182,7 +188,7 @@ export class Exercicios implements OnInit {
       variavel = true
     }
 
-    console.log('O resultado invertido após inversão é:', variavel)
+    console.log('O resultado invertido após inversão é:', variavel);
   }
   
 }
