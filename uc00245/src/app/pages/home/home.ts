@@ -74,6 +74,41 @@ export class Home implements OnInit {
     console.log(num1 % num2); // Resto da divisão
   }
 
-  /****************************** Exercicios ******************************/
+  /***Operadores de  comparação */
+ 
+  exemploOperadoresComparacao(): void {
+    console.log('\n🧩 3️⃣ OPERADORES DE COMPARAÇÃO');
+    console.log('--------------------------------');
+ 
+    // 📘 Exemplo de código:
+ 
+    let x = 5;
+    let y = 10;
+ 
+    console.log(x == y); // Igualdade
+    console.log(x != y); // Diferença
+    console.log(x > y); // Maior que
+    console.log(x < y); // Menor que
+    console.log(x >= y); // Maior ou igual
+    console.log(x <= y); // Menor ou igual
+ 
+  }
+  /*** if/else if/else - Múltiplas condições */
+  exemploCondicao(): void {
+  let nota: number = 85;
 
+  if (nota >= 90) {
+    console.log("Excelente - A");
+  } else if (nota >= 80) {
+    console.log("Muito Bom - B");
+  } else if (nota >= 70) {
+    console.log("Bom - C");
+  } else if (nota >= 50) {
+    console.log("Suficiente - D");
+  } else {
+    console.log("Insuficiente - F");
+  }
+  
+  }
 }
+

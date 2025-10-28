@@ -74,6 +74,7 @@ export class Exercicios implements OnInit {
       console.log('Soma:', num1 + num2)
       console.log('Subtração:', num1 - num2)
     }
+
     exercicio5 = () => {
     // 💪 Exercício 5
     console.log('👉 Exercício 5: Calcule a área de um retângulo (largura * altura).' );
@@ -94,5 +95,94 @@ export class Exercicios implements OnInit {
       
       console.log('O resto da divisão de 20 por 6 é', num1 % num2)
     }
+
+  // continuação operadores compraração
+    exercicio7 = () => {
+     // 💪 Exercício 7
+    console.log('👉 Exercício 7: Compare dois números e diga se são iguais.');
+      
+    let num1 = 5;
+    let num2 = 10;
+
+      if (num1 == num2) {
+        console.log('Os números são iguais')
+      } else {
+        console.log('Os números são diferentes')
+      }    
+    }
+
+    exercicio8 = () => {
+    // 💪 Exercício 8
+    console.log('👉 Exercício 8: Compare se um número é maior que o outro.');
+    
+    let num1 = 10;
+    let num2 = 5;
+
+      if (num1 > num2) {
+        console.log('O primeiro número',num1, 'é maior que o segundo número',num2);
+      } else if (num1 < num2) {
+        console.log('O primeiro número',num1, 'é menor que o segundo número',num2);
+      } else {   
+      console.log('O primeiro número',num1, 'é igual ao segundo número',num2);
+      }
+    }
+
+    exercicio9 = () => {
+    // 💪 Exercício 9
+    console.log('👉 Exercício 9: Compare se dois textos são diferentes.');
+
+    let texto1 = "Olá sou o Geadas";
+    let texto2 = "Olá sou o Gustavo";
+
+      if (texto1 == texto2) {
+        console.log('O primeiro texto (',texto1, ') é igual ao segundo texto',texto2);
+      } else {   
+      console.log('O primeiro texto (',texto1, ') é diferente do segundo texto',texto2);
+      }
+    }
+
+    // operadores Logicos
+    exercicio10 = () => {
+    // 💪 Exercício 10
+    console.log('👉 Exercício 10: Verifique se uma pessoa pode dirigir (temIdade && temCarta).');
+
+    let temIdade = 18;
+    let temCarta = true;
+
+    if (temIdade >= 18 && temCarta) {
+        console.log('A pessoa pode dirigir');
+      } else {   
+      console.log('A pessoa não pode dirigir');
+      }
+    }
+
+    exercicio11 = () => {
+    // 💪 Exercício 11
+    console.log('👉 Exercício 11: Verifique se o acesso é permitido (logado || admin).');
+
+    let logado = false;
+    let admin = true;
+
+      if (admin || logado ) {
+        console.log('O acesso é permitido');
+      } else {
+      console.log('O acesso é negado');
+      }
+    }
+
+    exercicio12 = () => {
+    // 💪 Exercício 12
+    console.log('👉 Exercício 12: Inverta o valor de uma variável booleana.');
+    
+    let variavel = true;
+
+    if (variavel == true) {
+      variavel = false
+    } else {
+      variavel = true
+    }
+
+    console.log('O resultado invertido após inversão é:', variavel)
+  }
   
 }
